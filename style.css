@@ -1,0 +1,86 @@
+                                /* 
+                                #FFF7A4 yellow
+                                #89C2FF light blue
+                                #74113C magenta
+                                #011B42 dark blue
+                                #ff006f link pink
+                                */
+            /* global styles */
+body{
+    color: #011B42;
+    background: #89C2FF;
+}
+img{
+    width: 300px;
+    margin: 5px;
+}
+a{
+    color:#74113C;
+}
+a:hover{
+    color:#ff006f
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    padding:5px;
+}
+h1, h2, h3{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+            /* profile */
+header{
+    background: #89C2FF;
+    color: #74113C;
+    padding: 5px;
+    border:#74113C;
+        border-width: 2px;
+        border-radius: 5px;
+        border-style:solid;
+    margin:10px;
+}
+
+.name{
+    text-align: center;
+    font-size: 50px;
+}
+.title{
+    text-align:center;
+    padding: 0px;
+}
+
+            /* projects */
+.projects{
+    background: #FFF7A4;
+    padding: 5px;
+}
+.projects .btn {
+    color:#FFF7A4;
+    background: #011B42;
+    padding: 5px;
+    border-radius: 4px;
+}
+.projects .btn:hover{
+    background-color: rgba( 1, 27, 66, 75%);
+}
+
+            /* work experience */
+.work-exp{
+    background: #FFF7A4;
+    padding: 5px;
+}
+
+            /* education */
+.edu{
+    background: #FFF7A4;
+    padding: 5px;
+}
+
+            /* contact info */
+footer{
+    background: #89C2FF;
+    padding: 5px;
+}
